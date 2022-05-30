@@ -15,7 +15,7 @@ func (ce *charEchoer) open() {
 }
 
 func (ce *charEchoer) print() {
-	fmt.Print(ce.r)
+	fmt.Printf("%c", ce.r)
 }
 
 func (ce *charEchoer) close() {
